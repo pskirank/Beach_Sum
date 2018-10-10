@@ -14,8 +14,4 @@ def sum_of_a_beach(beach):
 	for i in results:
 		summation += i
 	return summation
-"""	
------------Best Solution-------
-	return len(re.findall('Sand|Water|Fish|Sun', beach, re.IGNORECASE))
-"""
-print sum_of_a_beach("sunsunsunsun")
+
